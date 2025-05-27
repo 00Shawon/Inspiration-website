@@ -1,0 +1,63 @@
+/* ___laptop___ */
+@media screen and (max-width:1200px){
+
+    
+
+}
+/* ___tablet___ */
+@media screen and (max-width:1024px){
+.blog-content{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.text-content .btn{
+    font-size: 16px;
+}
+iframe{
+    height: 280px;
+}
+.iframe-container{
+    padding:20px;   
+}
+.footer p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+}
+/* ___mobile___ */
+@media (max-width:640px){
+    .btn{
+        padding: 8px 16px;
+    }
+    .nav-bar p{
+        font-size: 24px
+    }
+
+    .banner-content h1{
+    font-size: 28px;
+    
+}
+.text-content{
+    max-width: 100%;;
+}
+.blog-content img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.target-curt{
+    flex-direction: column;
+    align-items: center;
+}
+.curt{
+    width:100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.footer p{
+    font-size: 12px;
+}
+.icon{
+    width:auto;
+}
+}
